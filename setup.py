@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup
+from setuptools import setup, find_packages
 
 packages = \
-['bolt7']
+['pyln.spec.bolt7']
 
 package_data = \
 {'': ['*']}
